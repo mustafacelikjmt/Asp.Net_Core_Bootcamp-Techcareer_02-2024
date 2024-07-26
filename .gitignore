@@ -1,0 +1,17 @@
+# Ignore bin and obj folders
+bin/
+obj/
+
+# Specific files
+appsettings.Development.json
+
+# User-specific files
+*.user
+*.suo
+
+# VS temporary files
+.vs/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/

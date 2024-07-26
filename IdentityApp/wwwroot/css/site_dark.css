@@ -1,0 +1,93 @@
+html {
+    font-size: 14px;
+    background-color: #121212;
+    color: #e0e0e0;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.25), 0 0 0 0.25rem #1a73e8; /* Odaklanma durumunda gölge renkleri karanlýk tema için uyarlanmýþtýr */
+}
+
+a, .btn-link, .nav-link {
+    color: #79a7ff; /* Açýk mavi link rengi, karanlýk temada daha iyi görünür */
+    text-decoration: none;
+}
+
+.form-control, .form-check-input {
+    background-color: #2c2c2c; /* Daha koyu arka plan rengi form elemanlarý için */
+    border: 1px solid #444; /* Kenarlýk rengi */
+    color: #e0e0e0; /* Metin rengi */
+}
+
+.table { /* Karanlýk tema için tablo ve tablo kenarlýklarý genel stilini ayarlar */
+    background-color: #242424; /* Karanlýk arka plan rengi */
+    color: #e0e0e0; /* Açýk gri metin rengi, okunabilirlik için */
+}
+
+.table-bordered {
+    border: 1px solid #444; /* Kenarlýk rengi, karanlýk temaya uyumlu */
+}
+
+.table thead { /* Karanlýk tema için tablo baþlýklarýný ayarlar */
+    background-color: #343434; /* Baþlýklar için biraz daha koyu arka plan rengi */
+    color: #ffffff; /* Beyaz metin rengi */
+}
+
+.table td, .table th { /* Karanlýk tema için tablo hücrelerini ayarlar */
+    color: #e0e0e0; /* Açýk gri metin rengi, okunabilirlik için */
+}
+
+.btn { /* Butonlar için metin rengi */
+    color: #ffffff; /* Beyaz metin rengi */
+}
+
+.dark-theme .card {
+    background-color: #333; /* Karanlýk temada kartýn arka plan rengi */
+    color: #fff; /* Karanlýk temada metin rengi */
+}
+
+    .dark-theme .card .btn-outline-secondary {
+        border-color: #666; /* Karanlýk temada buton kenarlýk rengi */
+        color: #ccc; /* Karanlýk temada buton metin rengi */
+    }
+
+        .dark-theme .card .btn-outline-secondary:hover {
+            background-color: #555; /* Karanlýk temada buton üzerine gelindiðinde arka plan rengi */
+            color: #fff; /* Karanlýk temada buton üzerine gelindiðinde metin rengi */
+        }
+
+.page-item .page-link {
+    color: #79a7ff; /* Açýk mavi metin rengi, karanlýk temada daha iyi görünür */
+    background-color: #333; /* Karanlýk arka plan rengi */
+    border-color: #444; /* Karanlýk temaya uygun kenarlýk rengi */
+}
+
+    .page-item .page-link:hover {
+        color: #fff; /* Beyaz metin rengi, mouse üzerine gelince */
+        background-color: #555; /* Mouse üzerine gelince daha koyu arka plan rengi */
+        border-color: #666; /* Mouse üzerine gelince kenarlýk rengini deðiþtir */
+    }
+
+.avatar {
+    width: 3rem;
+    height: 3rem;
+}
+
+.list-group-item {
+    background-color: #333; /* Koyu arka plan rengi */
+    color: #fff; /* Beyaz metin rengi */
+}
